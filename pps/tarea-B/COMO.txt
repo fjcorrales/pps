@@ -1,0 +1,27 @@
+Una versión mucho más detallada está en el moodle, bajo el epígrafe
+
+Sobre la tarea-B
+
+Se recomienda mirar dicho fichero.
+
+Para usar este ejemplo es necesario haber desarrollado, al menos,
+la parte correspondiente a copiar los archivos del programa minientrega.sh
+Entonces, una vez cumplimentada, se debe proceder de la manera siguiente:
+
+ - Abrir un Bash.
+
+ - Posicionarse en este directorio.
+
+ - Crear la variable de entorno MINIENTREGA_CONF:
+
+   $ export MINIENTREGA_CONF=./conf
+
+ - Ejecutar el script minientrega.sh en este directorio indicando
+   prac4 como identificador de práctica:
+
+   $ ./minientrega.sh prac4
+
+ - El resultado es la "entrega" de los ficheros informe.txt y
+   programa.c que deberían haber sido copiados en el subdirectorio con
+   nombre el del usuario que ejecuta el script del directorio
+   ./destino/entrega-prac4
