@@ -1,0 +1,1 @@
+Descripción de la especificación de las pruebas implementadas en pruebas.sh
